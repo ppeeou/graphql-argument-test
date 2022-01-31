@@ -1,0 +1,20 @@
+{
+  "name": "graphql-field-arguments-coercion-usage",
+  "dependencies": {
+    "apollo-server": "2.10.1",
+    "chai": "4.2.0",
+    "graphql": "14.6.0",
+    "graphql-field-arguments-coercion": "1.0.0-rc",
+    "graphql-tools": "5.0.0",
+    "nodemon": "2.0.3",
+    "ts-node": "8.10.1",
+    "typescript": "3.8.3"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "start:server": "ts-node index.ts",
+    "start": "nodemon --watch '**/*.ts' --exec 'npm run start:server'"
+  },
+  "keywords": [],
+  "description": ""
+}
